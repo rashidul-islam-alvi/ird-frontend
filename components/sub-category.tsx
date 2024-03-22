@@ -31,7 +31,7 @@ const SubCategory = ({ catId }: { catId: number }) => {
       }
     };
     fetchSubCategories();
-  }, [activeSubCategory]);
+  }, [catId]);
 
   return (
     <div className="pl-6">

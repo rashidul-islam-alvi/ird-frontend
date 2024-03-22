@@ -23,7 +23,7 @@ const SubCategoryDua = ({ subcatId }: { subcatId: number }) => {
       }
     };
     fetchSubCategoryDuas();
-  }, []);
+  }, [subcatId]);
 
   return (
     <div>

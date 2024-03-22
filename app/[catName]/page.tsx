@@ -1,6 +1,4 @@
-import DuaWrapper from "@/components/dua-wrapper";
 import Duas from "@/components/duas";
-import getAllCategories from "@/lib/getAllCategories";
 import getDuasByCategory from "@/lib/getDuasByCategory";
 import React from "react";
 
